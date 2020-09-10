@@ -15,12 +15,14 @@ Including another URLconf
 """
 from django.urls import include, path
 from django.views.defaults import page_not_found
+from .views import page_test
 
 urlpatterns = [
-	path('login/', page_not_found),
-	path('signup/', page_not_found),
+	path('/', page_test),
+	path('login/', page_test),
+	path('signup/', page_test),
 	path('question/', include('qa.urls')),
-	path('ask/', page_not_found),
-	path('popular/', page_not_found),
-	path('new/', page_not_found),
+	path('ask/', page_test),
+	path('popular/', page_test),
+	path('new/', page_test),
 ]

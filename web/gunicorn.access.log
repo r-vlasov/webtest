@@ -1,4 +1,1 @@
-[2020-09-10 13:22:16 +0300] [24022] [INFO] Starting gunicorn 20.0.4
-[2020-09-10 13:22:16 +0300] [24022] [INFO] Listening at: http://0.0.0.0:8080 (24022)
-[2020-09-10 13:22:16 +0300] [24022] [INFO] Using worker: sync
-[2020-09-10 13:22:16 +0300] [24029] [INFO] Booting worker with pid: 24029
+./init.sh: line 5: gunicorn: command not found

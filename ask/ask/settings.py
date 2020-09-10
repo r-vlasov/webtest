@@ -25,7 +25,7 @@ SECRET_KEY = '6(im6(4$el!$-wr9=8i9_9qldn#qnze7l6+6ck&8op1))cs2dy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -77,7 +77,8 @@ WSGI_APPLICATION = 'ask.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'stepic_web',
+		'USER': 'box',
     }
 }
 

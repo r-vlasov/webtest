@@ -1,0 +1,4 @@
+[2020-09-10 12:46:23 +0300] [22638] [INFO] Starting gunicorn 20.0.4
+[2020-09-10 12:46:23 +0300] [22638] [INFO] Listening at: http://0.0.0.0:8080 (22638)
+[2020-09-10 12:46:23 +0300] [22638] [INFO] Using worker: sync
+[2020-09-10 12:46:23 +0300] [22645] [INFO] Booting worker with pid: 22645
